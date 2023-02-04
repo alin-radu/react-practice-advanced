@@ -6,9 +6,7 @@ const useStopwatch = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log('useStopwatch useEffect');
     const interval = setInterval(() => {
-      console.log(`Count = ${count}`);
       setCount((prev) => prev + 1);
     }, 1000);
     return () => clearInterval(interval);

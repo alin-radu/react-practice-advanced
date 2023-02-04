@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
+import { useState, useEffect, useRef, useLayoutEffect } from 'react';
 
 const useCallbackRef = (callback) => {
   const callbackRef = useRef(callback);
@@ -14,7 +14,7 @@ export const useFetch = (options) => {
   const savedOnSuccess = useCallbackRef(options.onSuccess);
 
   useEffect(() => {
-    console.log("useFetch useEffect ");
+    console.log('useFetch useEffect ');
     if (options.url) {
       let isCancelled = false;
       fetch(options.url)
