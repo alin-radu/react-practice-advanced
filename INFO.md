@@ -1,14 +1,16 @@
-Info
+# INFO
 
-tutorial: 
+### tutorial:
 
 - useEffect: https://www.youtube.com/watch?v=dH6i3GurZW8&list=PLNqp92_EXZBJs6rKouX5U8-tWJgTLaeKv&index=2
 
-github: https://github.com/alin-radu/react-practice-advanced.git
+### github: https://github.com/alin-radu/react-practice-advanced.git
 
-app: -
+### app: -
 
-github 
+### github code:
+
+<code>
 …or create a new repository on the command line
 echo "# react-practice-advanced" >> README.md
 git init
@@ -17,3 +19,4 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/alin-radu/react-practice-advanced.git
 git push -u origin main
+</code>
