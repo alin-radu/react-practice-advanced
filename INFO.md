@@ -1,22 +1,16 @@
-# INFO
+### INFO
 
-### tutorial:
+#### I. TUTORIAL:
 
-- useEffect: https://www.youtube.com/watch?v=dH6i3GurZW8&list=PLNqp92_EXZBJs6rKouX5U8-tWJgTLaeKv&index=2
+##### 1. Mastering React's useEffect
 
-### github: https://github.com/alin-radu/react-practice-advanced.git
+- title: Mastering React's useEffect
+- author: Jack Herrington
+- link: https://www.youtube.com/watch?v=dH6i3GurZW8&list=PLNqp92_EXZBJs6rKouX5U8-tWJgTLaeKv&index=2
 
-### app: -
+#### II. GITHUB:
 
-### github code:
+- https://github.com/alin-radu/react-practice-advanced.git
+- git@github.com:alin-radu/react-practice-advanced.git
 
-<code>
-…or create a new repository on the command line
-echo "# react-practice-advanced" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/alin-radu/react-practice-advanced.git
-git push -u origin main
-</code>
+#### III. APP: -
