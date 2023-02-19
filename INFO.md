@@ -10,7 +10,6 @@
 
 ### II. GITHUB
 
-- https://github.com/alin-radu/react-practice-advanced.git
 - git@github.com:alin-radu/react-practice-advanced.git
 
 ### III. APP
