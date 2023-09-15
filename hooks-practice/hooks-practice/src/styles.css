@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.top-bar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem 0;
+  background-color: white;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+table thead tr:first-child {
+  background-color: #878787;
+  position: sticky;
+  top: 53px;
+}
+
+table tr {
+  background-color: #efefef;
+}
+
+table tr:nth-child(odd) {
+  background-color: #c8c8c8;
+}
