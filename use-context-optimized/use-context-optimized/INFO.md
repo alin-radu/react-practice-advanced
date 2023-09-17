@@ -6,7 +6,7 @@
 
 - title: Making React Context FAST!
 - author: Jack Herrington
-- link: https://www.youtube.com/watch?v=ZKlXqrcBx88&t=18s
+- link: https://www.youtube.com/watch?v=ZKlXqrcBx88&list=PLNqp92_EXZBJs6rKouX5U8-tWJgTLaeKv&index=13
 
 ### II. GITHUB
 

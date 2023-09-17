@@ -41,11 +41,11 @@ const useStoreData = (): {
 // context ///////////////////////////////////////////////////////////////////////////////////////
 const StoreContext = createContext<UseStoreDataReturnType | null>(null);
 
-function Provider({ children }: { children: React.ReactNode }) {
+const Provider = ({ children }: { children: React.ReactNode }) => {
   const store = useStoreData();
 
   return <StoreContext.Provider value={store}>{children}</StoreContext.Provider>;
-}
+};
 
 // useStore //////////////////////////////////////////////////////////////////////////////////////
 const useStore = <SelectorOutput,>(
